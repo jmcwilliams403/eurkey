@@ -49,7 +49,7 @@
     { "pos": "V", "shortcutPos": "V", "letters": [ "v", "V", "" ], "capslock": true },
     { "pos": "B", "shortcutPos": "B", "letters": [ "b", "B", "" ], "capslock": true },
     { "pos": "N", "shortcutPos": "N", "letters": [ "n", "N", "" ], "capslock": true },
-    { "pos": "M", "shortcutPos": "M", "letters": [ "m", "M" ], "capslock": true },
+    { "pos": "M", "shortcutPos": "M", "letters": [ "m", "M", "" ], "capslock": true },
     { "pos": ",", "shortcutPos": ",", "letters": [ ",", "<", "" ], "capslock": false },
     { "pos": ".", "shortcutPos": ".", "letters": [ ".", ">", "" ], "capslock": false },
     { "pos": "/", "shortcutPos": "/", "letters": [ "/", "?", "" ], "capslock": false },
