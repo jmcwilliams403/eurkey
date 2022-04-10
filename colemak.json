@@ -3,7 +3,7 @@
 {
 	"mods": [
 		{
-		"name": "Colemak",
+			"name": "Colemak",
 			"permutation": [
 				[ "E", "K", "N", "J", "Y", "O", ";", "P", "R", "S", "D", "G", "T", "F" ],
 				[ "I", "L", "U" ]
