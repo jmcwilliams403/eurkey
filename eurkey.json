@@ -1,5 +1,9 @@
 {
-	"shiftlevels": ["Alt+Control", "Shift+Alt+Control" ],
+	"fullName": "EurKEY Keyboard Layout",
+	"name": "eurkey",
+	"copyright": "🄯 2008 Steffen Brüntjen",
+	"version": "0.1 (targeting 1.3)",
+	"shiftlevels": ["AltGr", "Shift+AltGr" ],
 	"keys": [
 		{ "pos": "1", "letters": ["¹", "¡"], "capslock": false },
 		{ "pos": "2", "letters": ["²", "ª"], "capslock": false },
@@ -50,7 +54,7 @@
 		{ "pos": "/", "letters": ["cdk:stroke", "¿" ], "capslock": false },
 		{ "pos": "Space", "letters": ["\u00a0", "\u00a0" ], "capslock": false },
 		{ "pos": "Iso", "letters": ["|", "¦" ], "capslock": false },
-		{ "pos": "KP_Dec", "letters": ["", "" ], "capslock": false }
+		{ "pos": "KP_Dec", "shortcutPos": "KP_Dec", "letters": [ "", "" ], "capslock": false }
 	],
 	"customDeadKeys": [
 		{
