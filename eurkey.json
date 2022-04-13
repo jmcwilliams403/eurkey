@@ -41,7 +41,7 @@
 		{ "pos": ";", "letters": ["°", "·" ], "capslock": false },
 		{ "pos": "'", "letters": ["cdk:acute", "cdk:diaeresis" ], "capslock": false },
 		{ "pos": "~", "letters": ["cdk:grave", "cdk:tilde" ], "capslock": false },
-		{ "pos": "\\", "letters": ["¬", "¦" ], "capslock": false },
+		{ "pos": "\\", "letters": ["cdk:symbol", "¦" ], "capslock": false },
 		{ "pos": "Z", "letters": ["à", "À" ], "capslock": true },
 		{ "pos": "X", "letters": ["á", "Á" ], "capslock": true },
 		{ "pos": "C", "letters": ["ç", "Ç" ], "capslock": true },
