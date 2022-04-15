@@ -50,8 +50,7 @@
 		{ "pos": ".", "shortcutPos": ".", "letters": [ ".", ">", "" ], "capslock": false },
 		{ "pos": "/", "shortcutPos": "/", "letters": [ "/", "?", "" ], "capslock": false },
 		{ "pos": "Space", "shortcutPos": "Space", "letters": [ " ", " ", " " ], "capslock": false },
-		{ "pos": "Iso", "shortcutPos": "Iso", "letters": [ "<", ">", "\u001c" ], "capslock": false },
-		{ "pos": "KP_Dec", "shortcutPos": "KP_Dec", "letters": [ ".", ".", "" ], "capslock": false }
+		{ "pos": "Iso", "shortcutPos": "Iso", "letters": [ "<", ">", "\u001c" ], "capslock": false }
 	],
 	"mods": [
 		{
