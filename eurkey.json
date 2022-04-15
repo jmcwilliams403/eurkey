@@ -53,8 +53,7 @@
 		{ "pos": ".", "letters": ["ó", "Ó" ], "capslock": true },
 		{ "pos": "/", "letters": ["¿", "…" ], "capslock": false },
 		{ "pos": "Space", "letters": ["\u00a0", "\u00a0" ], "capslock": false },
-		{ "pos": "Iso", "letters": ["|", "¦" ], "capslock": false },
-		{ "pos": "KP_Dec", "letters": ["", "" ], "capslock": false }
+		{ "pos": "Iso", "letters": ["|", "¦" ], "capslock": false }
 	],
 	"customDeadKeys": [
 		{
