@@ -8,7 +8,7 @@
 		{ "pos": "1", "letters": ["¹", "¡"], "capslock": false },
 		{ "pos": "2", "letters": ["²", "ª"], "capslock": false },
 		{ "pos": "3", "letters": ["³", "º"], "capslock": false },
-		{ "pos": "4", "letters": ["£", "¥"], "capslock": false },
+		{ "pos": "4", "letters": ["cdk:currency", "£"], "capslock": false },
 		{ "pos": "5", "letters": ["€", "¢"], "capslock": false },
 		{ "pos": "6", "letters": ["cdk:circumflex", "cdk:caron" ], "capslock": false },
 		{ "pos": "7", "letters": ["cdk:abovering", "cdk:macron" ], "capslock": false },
