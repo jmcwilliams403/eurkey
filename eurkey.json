@@ -20,9 +20,9 @@
 		{ "pos": "Q", "letters": ["æ", "Æ" ], "capslock": true },
 		{ "pos": "W", "letters": ["å", "Å" ], "capslock": true },
 		{ "pos": "E", "letters": ["ë", "Ë" ], "capslock": true },
-		{ "pos": "R", "letters": ["ý", "Ý" ], "capslock": true },
+		{ "pos": "R", "letters": ["ù", "Ù" ], "capslock": true },
 		{ "pos": "T", "letters": ["þ", "Þ" ], "capslock": true },
-		{ "pos": "Y", "letters": ["ÿ", "Ÿ" ], "capslock": true },
+		{ "pos": "Y", "letters": ["ú", "Ú" ], "capslock": true },
 		{ "pos": "U", "letters": ["ü", "Ü" ], "capslock": true },
 		{ "pos": "I", "letters": ["ï", "Ï" ], "capslock": true },
 		{ "pos": "O", "letters": ["ö", "Ö" ], "capslock": true },
@@ -34,11 +34,11 @@
 		{ "pos": "D", "letters": ["ð", "Ð" ], "capslock": true },
 		{ "pos": "F", "letters": ["è", "È" ], "capslock": true },
 		{ "pos": "G", "letters": ["é", "É" ], "capslock": true },
-		{ "pos": "H", "letters": ["ù", "Ù" ], "capslock": true },
-		{ "pos": "J", "letters": ["ú", "Ú" ], "capslock": true },
+		{ "pos": "H", "letters": ["ò", "Ò" ], "capslock": true },
+		{ "pos": "J", "letters": ["ó", "Ó" ], "capslock": true },
 		{ "pos": "K", "letters": ["ĳ", "Ĳ" ], "capslock": true },
 		{ "pos": "L", "letters": ["ø", "Ø" ], "capslock": true },
-		{ "pos": ";", "letters": ["cdk:ogonek", "cdk:abovedot" ], "capslock": false },
+		{ "pos": ";", "letters": ["cdk:ogonek", "cdk:diaeresis" ], "capslock": false },
 		{ "pos": "'", "letters": ["cdk:acute", "cdk:diaeresis" ], "capslock": false },
 		{ "pos": "~", "letters": ["cdk:grave", "cdk:tilde" ], "capslock": false },
 		{ "pos": "\\", "letters": ["cdk:symbol", "¦" ], "capslock": false },
@@ -49,8 +49,8 @@
 		{ "pos": "B", "letters": ["í", "Í" ], "capslock": true },
 		{ "pos": "N", "letters": ["ñ", "Ñ" ], "capslock": true },
 		{ "pos": "M", "letters": ["cdk:greek", "cdk:math" ], "capslock": false },
-		{ "pos": ",", "letters": ["ò", "Ò" ], "capslock": true },
-		{ "pos": ".", "letters": ["ó", "Ó" ], "capslock": true },
+		{ "pos": ",", "letters": ["cdk:cedilla", "cdk:caron" ], "capslock": false },
+		{ "pos": ".", "letters": ["cdk:abovedot", "cdk:circumflex" ], "capslock": false },
 		{ "pos": "/", "letters": ["cdk:stroke", "¿" ], "capslock": false },
 		{ "pos": "Space", "letters": ["\u00a0", "\u00a0" ], "capslock": false },
 		{ "pos": "Iso", "letters": ["|", "¦" ], "capslock": false }
@@ -283,6 +283,17 @@
 				[ "I", "Į" ],
 				[ "O", "Ǫ" ],
 				[ "U", "Ų" ],
+				[ "˛", "˛" ],
+				[ " ", "˛" ],
+				[ "\u00a0", "\u0328" ]
+			]
+		},
+		{
+			"name": "cedilla",
+			"baseChar": "¸",
+			"stringMap": [
+				[ "e", "ȩ" ],
+				[ "E", "Ȩ" ],
 				[ "c", "ç" ],
 				[ "d", "ḑ" ],
 				[ "g", "ģ" ],
@@ -303,9 +314,9 @@
 				[ "R", "Ŗ" ],
 				[ "S", "Ş" ],
 				[ "T", "Ţ" ],
-				[ "˛", "˛" ],
-				[ " ", "˛" ],
-				[ "\u00a0", "\u0328" ]
+				[ "¸", "¸" ],
+				[ " ", "¸" ],
+				[ "\u00a0", "\u0327" ]
 			]
 		},
 		{
